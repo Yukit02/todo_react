@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  #root {
+    text-align: center;
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+
+    .container {
+      text-align: left;
+      margin: 0 auto;
+      width: 80%;
+      max-width: 640px;
+
+      .select {
+        padding: 0.5em;
+        margin: 1em 0;
+      }
+
+      .empty {
+        padding: 0.25em 0.5em;
+        margin: 0 1em;
+      }
+
+      .form {
+        .text {
+          width: 80%;
+          padding: 0.5em;
+          margin-right: 0.5em;
+        }
+
+        .button {
+          padding: 0.25em 0.5em;
+        }
+      }
+
+      ul {
+        list-style: none;
+        padding-inline-start: 0;
+
+        li {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin: 0.5em 0;
+
+          .text {
+            width: 60%;
+            padding: 0.5em;
+            margin: 0 0.5em;
+          }
+          .button {
+            padding: 0.25em 0.5em;
+          }
+        }
+      }
+    }
+  }
+}
